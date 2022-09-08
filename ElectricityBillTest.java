@@ -28,10 +28,10 @@ class Electricitybill
 		System.out.println("Consumer name"+cname);
 		if (t==1)
 		{
-			System.out.println("Electricity Bill is:"+b);
+			System.out.println("Electricity Bill is Rs."+b"/-");
 		}
 		else if(t==2)
-			System.out.println("Electricity Bill is :"+b1);
+			System.out.println("Electricity Bill is Rs."+b1"/-");
 
 	}
 }
