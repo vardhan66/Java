@@ -1,9 +1,10 @@
-import java.util.*;
+//In this class there are two methods to caluculate the Electricity bill
 class EBl
 {
-			double Domestic(double a)
+			//Domestic type caluculation method which returns rupees in double
+			double Domestic(double a)//takes one parameter in units
 			{
-		 		if (a<=100)
+		 		if (a<=100)//checks the condition
 					return a*1;
 		 		else if (a<=200)
 					return 100+(a-100)*2.50;
@@ -12,6 +13,7 @@ class EBl
 		 		else
 					return 100+250+800+(a-500)*6;
 			}
+			//Commercial type caluculation method which returns rupees in double
 			double Commercial(double a)
 			{
 		 		if (a<=100)
@@ -20,7 +22,7 @@ class EBl
 					return 200+(a-100)*4.50;
 				else if (a<=500)
 					return 200+900+(a-200)*6;
-		 		else
+		 		else //if the all above conditions are not true then else part is executed
 					return 200+900+(a-500)*7;
 			}
 }
