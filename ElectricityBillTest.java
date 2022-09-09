@@ -33,5 +33,5 @@ class Electricitybill
 		else if(t==2)
 			System.out.println("Electricity Bill is Rs."+b1);//Bill is displayed for commercial type
 
-	}
-}
+	}//end of main method
+}//end of class
