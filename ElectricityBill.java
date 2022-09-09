@@ -12,7 +12,7 @@ class EBl
 					return 100+250+(a-200)*4;
 		 		else
 					return 100+250+800+(a-500)*6;
-			}
+			}//end of domestic method
 			//Commercial type caluculation method which returns rupees in double
 			double Commercial(double a)
 			{
@@ -24,5 +24,5 @@ class EBl
 					return 200+900+(a-200)*6;
 		 		else //if the all above conditions are not true then else part is executed
 					return 200+900+(a-500)*7;
-			}
-}
+			}//end of commercial method
+}//end of class
