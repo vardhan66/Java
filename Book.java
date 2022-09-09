@@ -47,11 +47,11 @@ public String getPublisher()
 return Publisher;
 }
 
-public void getBookInfo()
+public void getBookInfo()//Method used to display details
  {
-        System.out.println("\n Book name "+Name);
-        System.out.println("\n ISBN number "+ISBN);
-        System.out.println("\n Author name "+Author);
-        System.out.println("\n Publisher name "+Publisher);
+        System.out.println("\n Book name "+Name);//displays name
+        System.out.println("\n ISBN number "+ISBN);//displays ISBN number
+        System.out.println("\n Author name "+Author);//displays author name
+        System.out.println("\n Publisher name "+Publisher);//displays publisher
 }
 }
