@@ -12,9 +12,9 @@ class Electricitybill
 		System.out.println("Enter consumer name");
 		cname=s.nextLine();//input is stoired in cname
 		System.out.println("Enter previous month reading:");
-		pmr=s.nextDouble();
+		pmr=s.nextDouble();//input is stored in pmr
 		System.out.println("Enter current month reading:");
-		cmr=s.nextDouble();
+		cmr=s.nextDouble();//input is stored in cmr
 		if (pmr>cmr)
 			nu=cmr;
 		else
@@ -22,16 +22,16 @@ class Electricitybill
 		System.out.println("Choose opur EB type \n 1.Domestic \n 2.Commercial");
 		t=s.nextInt();//choice of the user is assignerd to t
 		EBl e=new EBl();//object creation from classs EBl
-		b=e.Domestic(nu);
-		b1=e.Commercial(nu);
-		System.out.println("Consumer number"+cno);
-		System.out.println("Consumer name"+cname);
+		b=e.Domestic(nu);//passed parameter is stored in the variable
+		b1=e.Commercial(nu);//passed parameter is stored in variable
+		System.out.println("Consumer number"+cno);// prints the consumer number
+		System.out.println("Consumer name"+cname);//prints the consumer name
 		if (t==1)
 		{
-			System.out.println("Electricity Bill is Rs."+b);
+			System.out.println("Electricity Bill is Rs."+b);//Bill is displayed for domestic type
 		}
 		else if(t==2)
-			System.out.println("Electricity Bill is Rs."+b1);
+			System.out.println("Electricity Bill is Rs."+b1);//Bill is displayed for commercial type
 
 	}
 }
