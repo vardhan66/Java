@@ -21,7 +21,7 @@ class Electricitybill
 			nu=cmr-pmr;
 		System.out.println("Choose opur EB type \n 1.Domestic \n 2.Commercial");
 		t=s.nextInt();//choice of the user is assignerd to t
-		EBl e=new EBl();//object crerstion from classs EBl
+		EBl e=new EBl();//object creation from classs EBl
 		b=e.Domestic(nu);
 		b1=e.Commercial(nu);
 		System.out.println("Consumer number"+cno);
