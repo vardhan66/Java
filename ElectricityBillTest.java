@@ -27,18 +27,9 @@ class Electricitybill
 		System.out.println("Consumer number"+cno);// prints the consumer number
 		System.out.println("Consumer name"+cname);//prints the consumer name
 		if (t==1)
-		{
-<<<<<<< HEAD
-			System.out.print("Electricity Bill is Rs."+b);
-		}
-		else if(t==2)
-			System.out.println("Electricity Bill is Rs."+b1);
-=======
 			System.out.println("Electricity Bill is Rs."+b);//Bill is displayed for domestic type
 		}
 		else if(t==2)
 			System.out.println("Electricity Bill is Rs."+b1);//Bill is displayed for commercial type
->>>>>>> fb50a6d9c64cd30c00b4eacd319f6a2123565f10
-
 	}//end of main method
 }//end of class
