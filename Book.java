@@ -6,7 +6,7 @@ private String Author;
 private String Publisher;
 
 
- Book(String name, int isbn, String author, String publisher)
+ Book(String name,int isbn,String author,String publisher)
  {
 Name = name;
 ISBN = isbn;
