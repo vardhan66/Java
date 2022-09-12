@@ -1,5 +1,5 @@
 //In this class there are two methods to caluculate the Electricity bill
-class EBl
+class ElectricityBill
 {
 			//Domestic type caluculation method which returns rupees in double
 			double Domestic(double a)//takes one parameter in units
