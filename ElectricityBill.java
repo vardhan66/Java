@@ -2,7 +2,7 @@
 class ElectricityBill
 {
 			//Domestic type caluculation method which returns rupees in double
-			double Domestic(double a)//takes one parameter in units
+			double domestic(double a)//takes one parameter in units
 			{
 		 		if (a<=100)//checks the condition
 					return a*1;
@@ -14,7 +14,7 @@ class ElectricityBill
 					return 100+250+800+(a-500)*6;
 			}//end of domestic method
 			//Commercial type caluculation method which returns rupees in double
-			double Commercial(double a)
+			double commercial(double a)
 			{
 		 		if (a<=100)
 					return a*2;
