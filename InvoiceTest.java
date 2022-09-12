@@ -26,7 +26,7 @@ class InvoiceTest
         System.out.println("Part Number:"+o.getPartNum());
         System.out.println("Part Description:"+o.getPartDeS());
         System.out.println("Quantitiy:"+o.getQuan());
-        System.out.println("Price :"+o.getPrice());
+        System.out.println("Price per item :"+o.getPrice());
         System.out.println("Total Price is "+total);
         
     }//end of main medthod
