@@ -23,6 +23,6 @@ class ElectricityBill
 				else if (a<=500)
 					return 200+900+(a-200)*6;
 		 		else //if the all above conditions are not true then else part is executed
-					return 200+900+(a-500)*7;
+					return 200+900+1800+(a-500)*7;
 			}//end of commercial method
 }//end of class
