@@ -32,8 +32,8 @@ class ElectricitybillTest
 		
 		//object creation of class ElectricityBill
 		ElecticityBill e=new ElectricityBill();
-		b=e.Domestic(nu);//passed parameter is stored in the variable
-		b1=e.Commercial(nu);//passed parameter is stored in variable
+		b=e.domestic(nu);//passed parameter is stored in the variable
+		b1=e.commercial(nu);//passed parameter is stored in variable
 		
 		//To display the generated electricity bill with details
 		System.out.println("Consumer number"+cno);// prints the consumer number
