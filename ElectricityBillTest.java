@@ -21,7 +21,7 @@ class Electricitybill
 			nu=cmr-pmr;
 		System.out.println("Choose opur EB type \n 1.Domestic \n 2.Commercial");
 		t=s.nextInt();//choice of the user is assignerd to t
-		EBl e=new EBl();//object creation from classs EBl
+		ElecticityBill e=new ElectricityBill();//object creation from classs EBl
 		b=e.Domestic(nu);//passed parameter is stored in the variable
 		b1=e.Commercial(nu);//passed parameter is stored in variable
 		System.out.println("Consumer number"+cno);// prints the consumer number
