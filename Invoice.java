@@ -50,7 +50,7 @@ class Invoice
     {
         if (quantity<0)//checks weather the quantitiy is positive or not
             quantity=0;
-        if (price<0)//checks weather the quantity is positive or not
+        if (price<0)//checks weather the price is positive or not
             price=0;
         return quantity*price;//returns the caluculated amount
     }
