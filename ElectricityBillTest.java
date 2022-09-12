@@ -40,7 +40,7 @@ class ElectricitybillTest
 		System.out.println("Consumer name"+cname);//prints the consumer name
 		if (t==1)
 			System.out.println("Electricity Bill is Rs."+b);//Bill is displayed for domestic type
-		}
+		
 		else if(t==2)
 			System.out.println("Electricity Bill is Rs."+b1);//Bill is displayed for commercial type
 	
