@@ -1,5 +1,5 @@
 import java.util.Scanner;//Scanner class is imported to take the manual input.
-class Electricitybill
+class ElectricitybillTest
 {
 	public static void main(String args[])
 	{
