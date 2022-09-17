@@ -31,7 +31,7 @@ class ElectricitybillTest
 		t=s.nextInt();//choice of the user is assignerd to t
 		
 		//object creation of class ElectricityBill
-		ElecticityBill e=new ElectricityBill();
+		ElectricityBill e=new ElectricityBill();
 		b=e.domestic(nu);//passed parameter is stored in the variable
 		b1=e.commercial(nu);//passed parameter is stored in variable
 		

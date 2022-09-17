@@ -1,12 +1,14 @@
+
+
 class Book 
 {
 private String Name;
-private int ISBN;
+private String ISBN;
 private String Author;
 private String Publisher;
 
 
- Book(String name, int isbn, String author, String publisher)
+ Book(String name, String isbn, String author, String publisher)
  {
 Name = name;
 ISBN = isbn;
@@ -22,19 +24,21 @@ public String getName()
  {
 return Name;
 }
-public void setISBN(int ISBN) 
+public void setISBN(String ISBN) 
 {
 this.ISBN = ISBN;
 }
-public int getISBN() 
+public String  getISBN() 
 {
 return ISBN;
 }
+
 public void setAuthor(String Author) 
 {
 this.Author = Author;
 }
-public String getAuthor() 
+public String get
+Author() 
 {
 return Author;
 }
@@ -46,11 +50,7 @@ public String getPublisher()
 {
 return Publisher;
 }
-public void getBookInfo()//Method used to display details
+String getBookInfo()//Method used to display details
  {
-        System.out.println("\n Book name "+Name);//displays name
-        System.out.println("\n ISBN number "+ISBN);//displays ISBN number
-        System.out.println("\n Author name "+Author);//displays author name
-        System.out.println("\n Publisher name "+Publisher);//displays publisher
-}
-}
+        return "Name :" +Name+ " "+ "Isbn: "+ISBN+" "+"Author: "+Author+" "+"Publisher: "+Publisher;
+ }}
